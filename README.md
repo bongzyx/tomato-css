@@ -26,6 +26,22 @@ Light Theme
 3. Save changes and reboot router
 4. You may need to erase your brower's cache before the new UI appears.
 
+#### 3. Custom Script
+1. Navigate to __Administration__ > __Scripts__
+2. Choose __WAN Up__
+3. Paste the following code: 
+
+```
+sleep 60
+logger start downloading
+wget https://raw.githubusercontent.com/theredhood13/tomato-css/master/release/light/custom.css -P /var/wwwext/
+```
+
+4. Save changes and reboot router. 
+5. You may need to erase your brower's cache before the new UI appears.
+6. Theme will be downloaded and applied 60 seconds after boot.
+
+
 ### Using SSH
 
 #### 1. Upload Custom CSS over SSH
