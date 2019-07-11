@@ -6,7 +6,9 @@ Modified to my own liking.
 Original credit still goes to theredhood13.
 
 ## Screenshots
-Coming Soon
+![Screenshot1](https://raw.githubusercontent.com/brandonongzy/freshtomato-css/master/screenshot1.png)
+![Screenshot2](https://raw.githubusercontent.com/brandonongzy/freshtomato-css/master/screenshot2.png)
+![Screenshot3](https://raw.githubusercontent.com/brandonongzy/freshtomato-css/master/screenshot3.png)
 
 ## Installation
 
