@@ -20,7 +20,7 @@ Coming Soon
 ```
 sleep 60
 logger start downloading
-wget https://raw.githubusercontent.com/theredhood13/tomato-css/master/release/light/custom.css -P /var/wwwext/
+wget https://raw.githubusercontent.com/brandonongzy/freshtomato-css/master/custom.css -P /var/wwwext/
 ```
 
 4. Save changes and reboot router. 
