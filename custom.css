@@ -2,7 +2,7 @@
 
 small a,
 small a:hover {
-    color: #fff!important;
+    color: #fff;
 }
 
 body,
@@ -42,7 +42,7 @@ td#content a:hover {
 }
 
 small a:hover {
-    background-color: #76838f!important;
+    background-color: #76838f;
 }
 
 td#navi a.indent1:before {
@@ -194,7 +194,8 @@ td#navi a.indent2 {
     background-color:#444;
 }
 
-td#navi a.indent2.active {
+td#navi a.indent2.active,
+td#navi a.indent2:hover {
     background-color: #2180de;
     color: #fff;
 }
@@ -370,7 +371,7 @@ td#navi a.indent1[href*="javascript:reboot()"]:hover,
 td#navi a.indent1[href*="javascript:shutdown()"]:hover,
 td#navi a.indent1[href*="javascript:logout()"]:hover {
     background-color:#0000!important;
-    color: #fff;
+    color: #444;
 }
 
 div#ident,
@@ -422,4 +423,18 @@ td.title.indent1 {
 
 td.content {
     font-family: 'Work Sans';
+}
+
+
+span#sesdiv_notes_showhide,
+span#sesdivnotesshowhide {
+    color: #aaa;
+    background-color: transparent;
+}
+
+span#sesdiv_notes_showhide:hover,
+span#sesdivnotesshowhide:hover {
+    color: #ccc;
+    background-color: transparent;
+    transition:color .5s;
 }
