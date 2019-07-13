@@ -205,7 +205,8 @@ td#content {
 }
 
 div.section,
-div.section-title {
+div.section-title,
+div#cstats {
     padding-left: 20px;
     border: 1px solid #cfd8dc;
 }
@@ -223,7 +224,8 @@ div.section-title {
     margin: 20px 40px 0;
 }
 
-div.section {
+div.section,
+div#cstats {
     padding-right: 20px;
     padding-top: 10px;
     border-bottom-left-radius: 5px;
@@ -407,7 +409,7 @@ select {
     height:30px;
 }
 
-div.about{
+div.about, {
     border: 1px solid #cfd8dc;
     padding: 20px;
     border-radius: 5px;
@@ -438,3 +440,6 @@ span#sesdivnotesshowhide:hover {
     background-color: transparent;
     transition:color .5s;
 }
+
+
+
