@@ -205,8 +205,7 @@ td#content {
 }
 
 div.section,
-div.section-title,
-div#cstats {
+div.section-title {
     padding-left: 20px;
     border: 1px solid #cfd8dc;
 }
@@ -224,8 +223,7 @@ div.section-title {
     margin: 20px 40px 0;
 }
 
-div.section,
-div#cstats {
+div.section {
     padding-right: 20px;
     padding-top: 10px;
     border-bottom-left-radius: 5px;
@@ -258,7 +256,7 @@ table.tomato-grid tr.even:hover,
 table.tomato-grid tr.odd:hover,
 table.bwmg tr.odd:hover,
 table.bwmg tr.even:hover {
-    background-color:#f7f7f7;
+    background-color:#f3f3f3;
 }
 
 table.tomato-grid tr.header td,
@@ -409,7 +407,7 @@ select {
     height:30px;
 }
 
-div.about, {
+div.about{
     border: 1px solid #cfd8dc;
     padding: 20px;
     border-radius: 5px;
@@ -440,6 +438,3 @@ span#sesdivnotesshowhide:hover {
     background-color: transparent;
     transition:color .5s;
 }
-
-
-
