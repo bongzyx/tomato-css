@@ -330,7 +330,8 @@ span#footer-msg {
     padding: 10px 15px;
 }
 
-div#rstats {
+div#rstats,
+div#cstats {
     color: #222;
     border-radius: 5px;
     margin: 20px 40px 0;
